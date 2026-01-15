@@ -439,7 +439,7 @@ const page2 = () => {
             <img src="/img/Clerk.webp" alt="Clerk" className="mr-2 invert" />
           </div>
 
-          <h1 className="font-bold">Clerk SDK</h1>
+          <h1 className="font-bold">Clerk</h1>
         </div>
       </div>
 
