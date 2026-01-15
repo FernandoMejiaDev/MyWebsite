@@ -62,7 +62,7 @@ const page2 = () => {
 
       <div className="flex flex-wrap items-center justify-start gap-1 text-white">
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-start text-orange-500 bg-orange-500 shadow-xl"
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-orange-500 bg-orange-500 shadow-xl text-start"
         >
           <div
             className="flex items-center justify-center w-12 h-auto"
@@ -74,7 +74,7 @@ const page2 = () => {
         </div>
 
         <div
-          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-start text-indigo-500 bg-indigo-500 shadow-xl "
+          className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-indigo-500 bg-indigo-500 shadow-xl text-start "
         >
           <div
             className="flex flex-row items-center justify-center w-12 h-auto"
@@ -297,7 +297,9 @@ const page2 = () => {
       </div>
 
       <div className="flex flex-wrap items-center justify-start gap-1 text-white">
-        <div
+
+        {/*  
+       <div
           className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-sky-500 "
         >
           <div
@@ -307,6 +309,7 @@ const page2 = () => {
           </div>
           <h1 className="font-bold">WordPress</h1>
         </div>
+        */}
 
         <div
           className="flex flex-row items-center justify-center h-auto gap-2 p-2 text-center bg-blue-500"
