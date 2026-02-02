@@ -91,7 +91,7 @@ export const ProjectsInfos = [
     id: 3,
     name: "StarIA",
     Paragraph:
-      "Agente conversacional impulsado por IA, diseñado con la API de OpenAI. Una plataforma visual y funcional para configurar agentes de inteligencia artificial conversacional.",
+      "Agente conversacional impulsado por IA, diseñado con la API de OpenAI. Creada como ejercicio de una prueba técnica, cuyo objetivo era diseñar y  implementar un prototipo visual de una plataforma para configurar un agente de IA conversacional.",
     Paragraph2:
       "Ideal para equipos, negocios o profesionales que buscan integrar un agente conversacional en sus plataformas.",
 

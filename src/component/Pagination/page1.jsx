@@ -18,7 +18,7 @@ const page1 = () => {
 
       <p className="text-base md:text-lg">
         Uno de mis logros destacados fue participar en la
-        <span className="font-bold">Hackathon de MiduDev 2025</span>,
+        <span className="font-bold"> Hackathon de MiduDev 2025</span>,
         donde mi proyecto fue reconocido entre las propuestas más
         originales, lo que reforzó mi pasión por crear herramientas
         útiles y bien diseñadas.
@@ -36,4 +36,3 @@ const page1 = () => {
 };
 
 export default page1;
-
