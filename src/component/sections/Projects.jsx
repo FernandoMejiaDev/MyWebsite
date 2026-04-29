@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ProjectsInfos } from "../ui/ProjectsInfos";
+import { ProjectsInfos } from "../utils/ProjectsInfos";
 import Web from "../../assets/svg/web";
 import GitHub2 from "../../assets/svg/Github2";
 
@@ -113,7 +113,7 @@ export default function ProjectsDetails() {
                         item.icon
                       )}
                     </div>
-                    <span className="text-sm font-bold">{item.textSvg}</span>
+                    <span className="text-sm uppercase font-bold">{item.textSvg}</span>
                   </div>
                 ))}
               </div>

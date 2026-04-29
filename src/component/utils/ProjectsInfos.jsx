@@ -24,11 +24,11 @@ import CodiGol4 from "../../assets/video/CódiGolClip.mp4";
 
 import LandingMineVideo from "../../assets/video/LandingMineVideo.mp4";
 
-{/* 
+{
+  /*
   The way to bring an image is different with Astro and React. 
   What is imported here is the React way, but in the Array you 
   can place the address to display the images. 
-  
   */
 }
 
@@ -50,14 +50,12 @@ export const ProjectsInfos = [
     icons: [
       { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
+      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
+      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
       { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
       { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
       { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
-      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
-      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
-      { icon: "/img/MVC.webp", Background: "bg-slate-800", textSvg: "MVC (Model-View-Controller)", isImage: true }
-
     ],
   },
 
@@ -72,7 +70,7 @@ export const ProjectsInfos = [
       "Ideal para empresas, equipos de desarrollo o plataformas que necesiten integrar encuestas internas de forma rápida y personalizable, manteniendo una estructura clara y preparada para escalar.",
 
     web: "https://surveycontainer.wordpress.com/",
-    github: "https://github.com/FernandoMejiaDev/demo-survey-container",
+    github: "https://github.com/FernandoMejiaDev/Survey-Container",
     image1: "/img/SurveyContainer.webp",
     image2: "/img/SurveyContainer1.webp",
     image3: "/img/SurveyContainer2.webp",
@@ -102,11 +100,11 @@ export const ProjectsInfos = [
     image3: "/img/StarIA4.webp",
     icons: [
       { icon: <SVGastro />, Background: "bg-orange-500", textSvg: "Astro", isImage: false },
-      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
       { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
+      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
       { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
-      { Background: "bg-orange-600", textSvg: "Modelo-de-IA-con-GROQ"},
+      { Background: "bg-orange-600", textSvg: "Modelo-de-IA-con-GROQ" },
       { icon: <AIsvg />, Background: "bg-emerald-500", textSvg: "modelo-openai-gpt-oss-20b", isImage: false }
 
     ],
@@ -128,7 +126,8 @@ export const ProjectsInfos = [
     icons: [
       { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
+      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
       { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
       { icon: "/img/Clerk.webp", Background: "bg-purple-500", textSvg: "Clerk", isImage: true },
     ],
@@ -147,8 +146,7 @@ export const ProjectsInfos = [
       { icon: <SVGastro />, Background: "bg-orange-500", textSvg: "Astro", isImage: false },
       { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
       { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
-      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
+      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
       { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
 
     ],
@@ -166,13 +164,12 @@ export const ProjectsInfos = [
     icons: [
       { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
       { icon: <SVGVue />, Background: "bg-emerald-500", textSvg: "Vue", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind", isImage: false },
+      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
+      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
       { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
       { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
       { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
-      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
       { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
-      { icon: "/img/MVC.webp", Background: "bg-slate-800", textSvg: "MVC (Model-View-Controller)", isImage: true }
     ],
   },
   {

@@ -1,4 +1,4 @@
-import rea from "react";
+import react from "react";
 import { useState as reactUseState } from "react";
 import Projects from "../sections/Projects";
 

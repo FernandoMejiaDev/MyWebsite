@@ -41,25 +41,25 @@ const Pnpm = (props) => (
             <path
                 d="M20.374,20.375h-8.75v-8.75h8.75Z"
                 style={{
-                    fill: "transparent",
+                    fill: "currentcolor",
                 }}
             />
             <path
                 d="M20.374,30h-8.75V21.25h8.75Z"
                 style={{
-                    fill: "transparent",
+                    fill: "currentcolor",
                 }}
             />
             <path
                 d="M30,30H21.251V21.25H30Z"
                 style={{
-                    fill: "transparent",
+                    fill: "currentcolor",
                 }}
             />
             <path
                 d="M10.749,30H2V21.25h8.749Z"
                 style={{
-                    fill: "transparent",
+                    fill: "currentcolor",
                 }}
             />
         </g>
