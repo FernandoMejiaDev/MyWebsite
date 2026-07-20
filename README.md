@@ -49,12 +49,11 @@
 
 <div align="left">
 
-[![LinkedIn](https://img.shields.io/static/v1?message=LinkedIn&logo=readdotcv&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge)](https://www.linkedin.com/in/fernando-mejía-866a4b363)
-[![GITHUB](https://img.shields.io/static/v1?message=GITHUB&logo=Github&label=&color=22262A&logoColor=white&labelColor=&style=for-the-badge)](https://github.com/FernadoCodeDev)
-[![portafolio](https://img.shields.io/static/v1?message=portafolio&logo=devbox&label=&color=071D49&logoColor=white&labelColor=&style=for-the-badge)](https://fercode.netlify.app/)
-[![GMAIL](https://img.shields.io/static/v1?message=GMAIL&logo=gmail&label=&color=EA4335&logoColor=white&labelColor=&style=for-the-badge)](mailto:fernandomejiadev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=readdotcv&logoColor=0077B5)](https://www.linkedin.com/in/fernando-mejía-866a4b363)
+[![GITHUB](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=fff)](https://fercode.netlify.app/)
+[![portafolio](https://img.shields.io/badge/portafolio-000000?style=for-the-badge&logo=devbox&logoColor=0077B5)](https://www.linkedin.com/in/fernando-mejía-866a4b363)
+[![GMAIL](https://img.shields.io/badge/GMAIL-000000?style=for-the-badge&logo=GMAIL&logoColor=EA4335)](mailto:fernandomejiadev@gmail.com)
 
 </div>
 
 ---
-
