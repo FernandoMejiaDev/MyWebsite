@@ -1,7 +1,7 @@
 import React from "react";
 const sass = (props) => (
   <svg
-    fill="#fff"
+    fill="currentcolor"
     viewBox="0 -4 32 32"
     xmlns="http://www.w3.org/2000/svg"
     {...props}

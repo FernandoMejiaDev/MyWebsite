@@ -16,7 +16,7 @@ import NodeSVG from "../../assets/svg/node";
 import SqliteSVG from "../../assets/svg/sqlite";
 import ExpressSVG from "../../assets/svg/Express";
 import WordPress from "../../assets/svg/wordpressSVG";
-import SVGLaravel from "../../assets/svg/laravel"
+import SVGLaravel from "../../assets/svg/laravel";
 import SVGVue from "../../assets/svg/Vue";
 import SVGpnpm from "../../assets/svg/pnpm";
 
@@ -33,7 +33,6 @@ import LandingMineVideo from "../../assets/video/LandingMineVideo.mp4";
 }
 
 export const ProjectsInfos = [
-
   {
     id: 1,
     name: "Cooktopia",
@@ -48,14 +47,54 @@ export const ProjectsInfos = [
     image4: "/img/Cooktopia4.webp",
 
     icons: [
-      { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
-      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
-      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
-      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
-      { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
-      { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
-      { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
+      {
+        icon: <SVGJS />,
+        IconColor: "text-yellow-500",
+        textSvg: "JavaScript",
+        isImage: false,
+      },
+      {
+        icon: <SVGRect />,
+        IconColor: "text-sky-500",
+        textSvg: "React",
+        isImage: false,
+      },
+      {
+        icon: <SVGTailwind />,
+        IconColor: "text-cyan-500",
+        textSvg: "Tailwind CSS",
+        isImage: false,
+      },
+      {
+        icon: <SVGVite />,
+        IconColor: "text-violet-500",
+        textSvg: "Vite",
+        isImage: false,
+      },
+      {
+        icon: <SVGpnpm />,
+        IconColor: "text-amber-500",
+        textSvg: "PNPM",
+        isImage: false,
+      },
+      {
+        icon: <SVGphp />,
+        IconColor: "text-indigo-500",
+        textSvg: "PHP",
+        isImage: false,
+      },
+      {
+        icon: <SVGLaravel />,
+        IconColor: "text-red-500",
+        textSvg: "Laravel",
+        isImage: false,
+      },
+      {
+        icon: <SVGmysql />,
+        IconColor: "text-orange-500",
+        textSvg: "MySQL",
+        isImage: false,
+      },
     ],
   },
 
@@ -75,13 +114,42 @@ export const ProjectsInfos = [
     image2: "/img/SurveyContainer1.webp",
     image3: "/img/SurveyContainer2.webp",
     icons: [
-      { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
-      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
-      { icon: <NodeSVG />, Background: "bg-lime-500", textSvg: "Node", isImage: false },
-      { icon: <ExpressSVG />, Background: "bg-neutral-800", textSvg: "Express", isImage: false },
-      { icon: <SqliteSVG />, Background: "bg-sky-800", textSvg: "SQLite", isImage: false },
-      { icon: <WordPress />, Background: "bg-sky-500", textSvg: "WordPress", isImage: false }
-
+      {
+        icon: <SVGts />,
+        IconColor: "text-blue-500",
+        textSvg: "TypeScript",
+        isImage: false,
+      },
+      {
+        icon: <SVGRect />,
+        IconColor: "text-sky-500",
+        textSvg: "React",
+        isImage: false,
+      },
+      {
+        icon: <NodeSVG />,
+        IconColor: "text-lime-500",
+        textSvg: "Node",
+        isImage: false,
+      },
+      {
+        icon: <ExpressSVG />,
+        IconColor: "text-neutral-800",
+        textSvg: "Express",
+        isImage: false,
+      },
+      {
+        icon: <SqliteSVG />,
+        IconColor: "text-sky-800",
+        textSvg: "SQLite",
+        isImage: false,
+      },
+      {
+        icon: <WordPress />,
+        IconColor: "text-sky-500",
+        textSvg: "WordPress",
+        isImage: false,
+      },
     ],
   },
 
@@ -99,14 +167,43 @@ export const ProjectsInfos = [
     image2: "/img/StarIA3.webp",
     image3: "/img/StarIA4.webp",
     icons: [
-      { icon: <SVGastro />, Background: "bg-orange-500", textSvg: "Astro", isImage: false },
-      { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
-      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
-      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
-      { Background: "bg-orange-600", textSvg: "Modelo-de-IA-con-GROQ" },
-      { icon: <AIsvg />, Background: "bg-emerald-500", textSvg: "modelo-openai-gpt-oss-20b", isImage: false }
-
+      {
+        icon: <SVGastro />,
+        IconColor: "text-orange-500",
+        textSvg: "Astro",
+        isImage: false,
+      },
+      {
+        icon: <SVGts />,
+        IconColor: "text-blue-500",
+        textSvg: "TypeScript",
+        isImage: false,
+      },
+      {
+        icon: <SVGRect />,
+        IconColor: "text-sky-500",
+        textSvg: "React",
+        isImage: false,
+      },
+      {
+        icon: <SVGTailwind />,
+        IconColor: "text-cyan-500",
+        textSvg: "Tailwind CSS",
+        isImage: false,
+      },
+      {
+        icon: <SVGpnpm />,
+        IconColor: "text-amber-500",
+        textSvg: "PNPM",
+        isImage: false,
+      },
+      { IconColor: "text-orange-600", textSvg: "Modelo-de-IA-con-GROQ" },
+      {
+        icon: <AIsvg />,
+        IconColor: "text-emerald-500",
+        textSvg: "modelo-openai-gpt-oss-20b",
+        isImage: false,
+      },
     ],
   },
 
@@ -124,12 +221,42 @@ export const ProjectsInfos = [
     image3: "/img/CodiGol3.webp",
     image4: CodiGol4,
     icons: [
-      { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
-      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
-      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
-      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
-      { icon: "/img/Clerk.webp", Background: "bg-purple-500", textSvg: "Clerk", isImage: true },
+      {
+        icon: <SVGJS />,
+        IconColor: "text-yellow-500",
+        textSvg: "JavaScript",
+        isImage: false,
+      },
+      {
+        icon: <SVGRect />,
+        IconColor: "text-sky-500",
+        textSvg: "React",
+        isImage: false,
+      },
+      {
+        icon: <SVGTailwind />,
+        IconColor: "text-cyan-500",
+        textSvg: "Tailwind CSS",
+        isImage: false,
+      },
+      {
+        icon: <SVGVite />,
+        IconColor: "text-violet-500",
+        textSvg: "Vite",
+        isImage: false,
+      },
+      {
+        icon: <SVGpnpm />,
+        IconColor: "text-amber-500",
+        textSvg: "PNPM",
+        isImage: false,
+      },
+      {
+        icon: "/img/Clerk.webp",
+        IconColor: "text-purple-500",
+        textSvg: "Clerk",
+        isImage: true,
+      },
     ],
   },
   {
@@ -143,12 +270,36 @@ export const ProjectsInfos = [
     github: "https://github.com/FernandoMejiaDev/LandingMine-remastered",
     image1: LandingMineVideo,
     icons: [
-      { icon: <SVGastro />, Background: "bg-orange-500", textSvg: "Astro", isImage: false },
-      { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
-      { icon: <SVGRect />, Background: "bg-sky-500", textSvg: "React", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
-      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
-
+      {
+        icon: <SVGastro />,
+        IconColor: "text-orange-500",
+        textSvg: "Astro",
+        isImage: false,
+      },
+      {
+        icon: <SVGJS />,
+        IconColor: "text-yellow-500",
+        textSvg: "JavaScript",
+        isImage: false,
+      },
+      {
+        icon: <SVGRect />,
+        IconColor: "text-sky-500",
+        textSvg: "React",
+        isImage: false,
+      },
+      {
+        icon: <SVGTailwind />,
+        IconColor: "text-cyan-500",
+        textSvg: "Tailwind CSS",
+        isImage: false,
+      },
+      {
+        icon: <SVGpnpm />,
+        IconColor: "text-amber-500",
+        textSvg: "PNPM",
+        isImage: false,
+      },
     ],
   },
 
@@ -162,14 +313,54 @@ export const ProjectsInfos = [
     github: "https://github.com/FernandoMejiaDev/Cosmic-Pizza",
     image1: "/img/CosmicPizzaB.webp",
     icons: [
-      { icon: <SVGts />, Background: "bg-blue-500", textSvg: "TypeScript", isImage: false },
-      { icon: <SVGVue />, Background: "bg-emerald-500", textSvg: "Vue", isImage: false },
-      { icon: <SVGTailwind />, Background: "bg-cyan-500", textSvg: "Tailwind_CSS", isImage: false },
-      { icon: <SVGVite />, Background: "bg-violet-500", textSvg: "Vite", isImage: false },
-      { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
-      { icon: <SVGLaravel />, Background: "bg-red-500", textSvg: "Laravel", isImage: false },
-      { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
-      { icon: <SVGpnpm />, Background: "bg-amber-500", textSvg: "PNPM", isImage: false },
+      {
+        icon: <SVGts />,
+        IconColor: "text-blue-500",
+        textSvg: "TypeScript",
+        isImage: false,
+      },
+      {
+        icon: <SVGVue />,
+        IconColor: "text-emerald-500",
+        textSvg: "Vue",
+        isImage: false,
+      },
+      {
+        icon: <SVGTailwind />,
+        IconColor: "text-cyan-500",
+        textSvg: "Tailwind CSS",
+        isImage: false,
+      },
+      {
+        icon: <SVGVite />,
+        IconColor: "text-violet-500",
+        textSvg: "Vite",
+        isImage: false,
+      },
+      {
+        icon: <SVGphp />,
+        IconColor: "text-indigo-500",
+        textSvg: "PHP",
+        isImage: false,
+      },
+      {
+        icon: <SVGLaravel />,
+        IconColor: "text-red-500",
+        textSvg: "Laravel",
+        isImage: false,
+      },
+      {
+        icon: <SVGmysql />,
+        IconColor: "text-orange-500",
+        textSvg: "MySQL",
+        isImage: false,
+      },
+      {
+        icon: <SVGpnpm />,
+        IconColor: "text-amber-500",
+        textSvg: "PNPM",
+        isImage: false,
+      },
     ],
   },
   {
@@ -186,11 +377,30 @@ export const ProjectsInfos = [
     image3: "/img/KeysHomes3.webp",
     image4: "/img/KeysHomes4.webp",
     icons: [
-      { icon: <SVGJS />, Background: "bg-yellow-500", textSvg: "JavaScript", isImage: false },
-      { icon: <SVGSass />, Background: "bg-pink-500", textSvg: "Sass", isImage: false },
-      { icon: <SVGphp />, Background: "bg-indigo-500", textSvg: "PHP", isImage: false },
-      { icon: <SVGmysql />, Background: "bg-orange-500", textSvg: "MySQL", isImage: false },
+      {
+        icon: <SVGJS />,
+        IconColor: "text-yellow-500",
+        textSvg: "JavaScript",
+        isImage: false,
+      },
+      {
+        icon: <SVGSass />,
+        IconColor: "text-pink-500",
+        textSvg: "Sass",
+        isImage: false,
+      },
+      {
+        icon: <SVGphp />,
+        IconColor: "text-indigo-500",
+        textSvg: "PHP",
+        isImage: false,
+      },
+      {
+        icon: <SVGmysql />,
+        IconColor: "text-orange-500",
+        textSvg: "MySQL",
+        isImage: false,
+      },
     ],
   },
-
 ];

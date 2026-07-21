@@ -1,4 +1,3 @@
-import rea from "react";
 import { useState as reactUseState } from "react";
 
 const page1 = () => {

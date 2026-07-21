@@ -12,8 +12,6 @@ const pages = [
   { id: "page-3", title: "Proyectos", content: <Page3 /> }, 
 ];
 
-
-
 export default function PageWrapper() {
   const [activePage, setActivePage] = reactUseState(null);
 

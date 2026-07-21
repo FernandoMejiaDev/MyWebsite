@@ -104,7 +104,7 @@ export default function ProjectsDetails() {
                 {project.icons?.map((item, i) => (
                   <div
                     key={i}
-                    className={`flex flex-row items-center p-2 gap-2  text-white ${item.Background}`}
+                    className={`flex flex-row items-center p-2 gap-2 bg-black ${item.IconColor}`}
                   >
                     <div className="flex items-center justify-center w-8 h-auto">
                       {item.isImage ? (
@@ -113,7 +113,7 @@ export default function ProjectsDetails() {
                         item.icon
                       )}
                     </div>
-                    <span className="text-sm uppercase font-bold">{item.textSvg}</span>
+                    <span className="text-sm font-bold uppercase text-white">{item.textSvg}</span>
                   </div>
                 ))}
               </div>

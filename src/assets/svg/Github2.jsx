@@ -2,7 +2,7 @@ import React from "react";
 const GitHub2 = (props) => (
     <svg
     viewBox="0 0 24 24"
-    fill="none"
+    fill="currentcolor"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

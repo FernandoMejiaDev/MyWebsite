@@ -57,7 +57,7 @@ export default function StackDetails() {
                             {project.icons?.map((item, i) => (
                                 <div
                                     key={i}
-                                    className={`flex flex-row items-center p-2 gap-2  text-white ${item.Background}`}
+                                    className={`flex flex-row items-center p-2 gap-2 bg-black  ${item.IconColor}`}
                                 >
                                     <div className="flex items-center justify-center w-8 h-auto">
                                         {item.isImage ? (
@@ -66,7 +66,7 @@ export default function StackDetails() {
                                             item.icon
                                         )}
                                     </div>
-                                    <span className="text-sm uppercase font-bold">{item.textSvg}</span>
+                                    <span className="text-sm font-bold text-white uppercase">{item.textSvg}</span>
                                 </div>
                             ))}
                         </div>
