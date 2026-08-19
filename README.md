@@ -39,13 +39,6 @@
 
 <br>
 
-<div align="left">
-
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img7.webp" alt="alt" width="68%">
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img8.webp" alt="alt" width="28%">
-
-</div>
-
 <br>
 
 <div align="left">
