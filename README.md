@@ -32,17 +32,6 @@
 
 <div align="left">
 
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img5.webp" alt="alt" width="74%">
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img6.webp" alt="alt" width="20%">
-
-</div>
-
-<br>
-
-<br>
-
-<div align="left">
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=readdotcv&logoColor=0077B5)](https://www.linkedin.com/in/fernando-mejía-866a4b363)
 [![GITHUB](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=fff)](https://fercode.netlify.app/)
 [![portafolio](https://img.shields.io/badge/portafolio-000000?style=for-the-badge&logo=devbox&logoColor=0077B5)](https://www.linkedin.com/in/fernando-mejía-866a4b363)
