@@ -9,13 +9,13 @@
 </div>
 
 <br>
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img1.webp" alt="alt" width="71%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img1.webp" alt="alt">
 <br>
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img2.webp" alt="alt" width="25%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img2.webp" alt="alt">
 <br>
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img3.webp" alt="alt" width="74%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img3.webp" alt="alt">
 <br>
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img4.webp" alt="alt" width="19%">
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img4.webp" alt="alt">
 
 <br>
 
