@@ -9,28 +9,15 @@
 </div>
 
 <br>
-
-<div align="left">
-
   <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img1.webp" alt="alt" width="71%">
-  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img2.webp" alt="alt" width="25%">
-
-  Imagen del Header en versión móvil y versión escritorio, mostrando la adaptación del diseño según el tamaño de pantalla.
-
-</div>
-
 <br>
-
-<div align="left">
-
+  <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img2.webp" alt="alt" width="25%">
+<br>
   <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img3.webp" alt="alt" width="74%">
+<br>
   <img src="https://github.com/FernandoMejiaDev/MyWebsite/blob/master/readme/img4.webp" alt="alt" width="19%">
 
-</div>
-
 <br>
-
-<div align="left">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=readdotcv&logoColor=0077B5)](https://www.linkedin.com/in/fernando-mejía-866a4b363)
 [![GITHUB](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=fff)](https://fercode.netlify.app/)
