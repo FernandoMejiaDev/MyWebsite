@@ -191,7 +191,7 @@ export const StackInfo = [
       },
       {
         icon: <SVGgitHub />,
-        IconColor: "text-white",
+        IconColor: "currentcolor",
         textSvg: "GitHub",
         isImage: false,
       },

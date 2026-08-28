@@ -57,16 +57,16 @@ export default function StackDetails() {
                             {project.icons?.map((item, i) => (
                                 <div
                                     key={i}
-                                    className={`flex flex-row items-center p-2 gap-2 bg-black  ${item.IconColor}`}
+                                    className={`flex flex-row items-center p-2 gap-2 border border-gray-500 dark:bg-black dark:border-0 ${item.IconColor}`}
                                 >
                                     <div className="flex items-center justify-center w-8 h-auto">
                                         {item.isImage ? (
-                                            <img src={item.icon} alt={item.textSvg} className="object-contain w-6 h-auto invert" />
+                                            <img src={item.icon} alt={item.textSvg} className="object-contain w-6 h-auto dark:invert" />
                                         ) : (
                                             item.icon
                                         )}
                                     </div>
-                                    <span className="text-sm font-bold text-white uppercase">{item.textSvg}</span>
+                                    <span className="text-sm font-bold text-black uppercase dark:text-white">{item.textSvg}</span>
                                 </div>
                             ))}
                         </div>
