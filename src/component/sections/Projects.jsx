@@ -72,22 +72,26 @@ export default function ProjectsDetails() {
               {/* Image or video with buttons */}
               <div className="relative flex justify-center w-full">
                 {isVideo(currentMedia) ? (
-                  <video src={currentMedia} controls className="w-full rounded-lg" />
+                  <video 
+                  src={currentMedia} 
+                  controls 
+                  poster={project.posterVideo}
+                  className="w-full rounded-lg" />
                 ) : (
-                  <img src={currentMedia} alt={project.name} className="w-full rounded-lg" />
+                  <img src={currentMedia} alt={project.name} className="object-contain w-full h-auto bg-black rounded-lg max-h-96" />
                 )}
 
                 {mediaItems.length > 1 && (
                   <>
                     <button
                       onClick={() => handlePrev(index, mediaItems.length)}
-                      className="absolute left-0 px-2 py-1 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded top-1/2"
+                      className="absolute left-0 p-2 m-2 text-2xl text-white transform -translate-y-1/2 bg-black bg-opacity-50 border rounded border-slate-100 top-1/2"
                     >
                       ‹
                     </button>
                     <button
                       onClick={() => handleNext(index, mediaItems.length)}
-                      className="absolute right-0 px-2 py-1 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded top-1/2"
+                      className="absolute right-0 p-2 m-2 text-2xl text-white transform -translate-y-1/2 bg-black bg-opacity-50 border rounded border-slate-100 top-1/2"
                     >
                       ›
                     </button>

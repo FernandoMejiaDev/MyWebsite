@@ -219,6 +219,7 @@ export const ProjectsInfos = [
     image2: "/img/CodiGol2.webp",
     image3: "/img/CodiGol3.webp",
     image4: CodiGol4,
+    posterVideo: "/img/CodiGolLogo.webp",
     icons: [
       {
         icon: <SVGJS />,
@@ -268,6 +269,7 @@ export const ProjectsInfos = [
     web: "https://landingmine.netlify.app/",
     github: "https://github.com/FernandoMejiaDev/LandingMine-remastered",
     image1: LandingMineVideo,
+    posterVideo: "/img/LandingMine.webp",
     icons: [
       {
         icon: <SVGastro />,
