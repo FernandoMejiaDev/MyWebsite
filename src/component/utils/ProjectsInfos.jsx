@@ -108,7 +108,6 @@ export const ProjectsInfos = [
     Paragraph3:
       "Ideal para empresas, equipos de desarrollo o plataformas que necesiten integrar encuestas internas de forma rápida y personalizable, manteniendo una estructura clara y preparada para escalar.",
 
-    web: "https://surveycontainer.wordpress.com/",
     github: "https://github.com/FernandoMejiaDev/Survey-Container",
     image1: "/img/SurveyContainer.webp",
     image2: "/img/SurveyContainer1.webp",
