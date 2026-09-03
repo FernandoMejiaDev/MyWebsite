@@ -213,7 +213,7 @@ export const ProjectsInfos = [
       "Videojuego web para aprender Tailwind CSS enfrentando partidos de fútbol. En cada encuentro, debes aplicar un nuevo método de Tailwind para anotar goles. Ideal para quienes quieren aprender y mejorar en Tailwind CSS de forma práctica y entretenida.",
     Paragraph2:
       "Proyecto desarrollado y destacado en la Hackathon de MiduDev 2025.",
-    web: "https://codigol-demo.netlify.app/",
+    web: "https://codigol.netlify.app/",
     github: "https://github.com/FernandoMejiaDev/CodiGol-remastered",
     image1: "/img/CodiGolLogo.webp",
     image2: "/img/CodiGol2.webp",
